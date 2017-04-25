@@ -50,7 +50,7 @@ Use the following data as a mock API endpoint:
     "location": {
       "city": "San Francisco",
       "country": "USA",
-      "state" "California"
+      "state": "California"
       },
     "title": "'Murica: Living in San Fran",
     "price": 20.00,
