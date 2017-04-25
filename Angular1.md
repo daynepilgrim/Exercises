@@ -14,56 +14,88 @@ Use the following data as a mock API endpoint:
 ```
 {
   "guides": [{
-    "type": "city",
+    "location": {
+      "city": "Paris",
+      "country": "France"
+      },
     "title": "Paris on $10 a Day",
     "price": 18.99,
     "qty" : 4
   }, {
-    "type": "city",
+    "location": {
+      "city": "Venice",
+      "country": "Italy"
+      },
     "title": "Venice: Canals and Stuff",
     "price": 14.50,
     "qty" : 3
   }, {
-    "type": "city",
+    "location": {
+      "city": "Hoboken",
+      "country": "USA",
+      "state": "New Jersey"
+      },
     "title": "Visiting Hoboken: Why?",
     "price": 1.25,
     "qty" : 4
   }, {
-    "type": "country",
+    "location": {
+      "city": "Rio de Janeiro",
+      "country": "Brazil"
+      },
     "title": "Touring Brazil's Empty Olympic Stadiums",
     "price": 13.50,
     "qty" : 2
   }, {
-    "type": "country",
-    "title": "'Murica: Only Commies Travel Abroad",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "state" "California"
+      },
+    "title": "'Murica: Living in San Fran",
     "price": 20.00,
     "qty" : 1
   }, {
-    "type": "country",
-    "title": "Australia: Every Animal Here Can Kill You",
+    "Location": {
+      "city": "Sidney",
+      "country": "Australia"
+      },
+    "title": "Sidney, Australia: Every Animal Here Can Kill You",
     "price": 18.00,
     "qty" : 2
   }, {
-    "type": "region",
-    "title": "Backpacking Europe on Two Showers a Week",
+    "Location": {
+      "city": "Vienna",
+      "country": "Austria"
+      },
+    "title": "Touring Vienna on a Budget",
     "price": 12.48,
     "qty" : 5
   }, {
-    "type": "region",
-    "title": "Rainforests of Cental America",
+    "Location": {
+      "city": "Panama City",
+      "country": "Panama"
+      },
+    "title": "Beaches of Panama",
     "price": 15.00,
     "qty" : 3
   }, {
-    "type": "region",
-    "title": "The Evil Genius Guide to Taking over the Tri City Area",
+     "Location": {
+      "city": "Mumbai",
+      "country": "India"
+      },
+    "title": "Touring Mumbai:  Seeing the Sights",
     "price": 13.49,
     "qty" : 2
   },
   {
-    "type": "region",
-    "title": "How to Travel The World's Best Beaches",
+    "Location": {
+      "city": "San Jose",
+      "country": "Costa Rica"
+      },
+    "title": "Life in San Jose",
     "price": 15.51,
-    "qty": 0
+    "qty": 1
   }]
 }
 ```
