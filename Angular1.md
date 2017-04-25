@@ -6,7 +6,7 @@ Create a repo to host this project and build it as an Angular app.
 
 ### Requirements
 
-For this project you need to use Angular to list a collection of travel guides in the DOM that can be purchased.  A user can add them to a cart and also checkout.
+For this project you need to use Angular to list a collection of travel guides in the DOM that can be purchased.  A user can add them to a cart and also checkout.  We would also like to show the current weather by each book.
 
 _(Do not worry about payment processing or user management.)_
 
