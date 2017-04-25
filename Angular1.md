@@ -8,6 +8,8 @@ Create a repo to host this project and build it as an Angular app.
 
 For this project you need to use Angular to list a collection of travel guides in the DOM that can be purchased.  A user can add them to a cart and also checkout.
 
+_(Do not worry about payment processing or user management.)_
+
 Use the following data as a mock API endpoint:
 ```
 {
